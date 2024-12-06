@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Maps&display=swap');
+
+:root{
+  --primary-color:#fcc302;;
+}
+body{
+  font-family: "Poppins", serif;
+}
+.example5 .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.example5 .navbar-brand>img {
+  padding: 7px 14px;
+}
+
+.header .header .navbar-collapse{
+  justify-content: end;
+}
+
+@media screen and (min-width: 992px) {
+ .all_bg .header .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      justify-content: end;
+  }
+}
+
+.all_bg{
+  background-color: #daac00;
+}
+.all_bg ul li a{
+  font-size: 29px;
+color: #ffffff;
+font-weight: 500;
+font-family: "Poppins";
+margin-right: 10px;
+
+}
+
+
+.all_bg ul li .nav-link:hover{
+  color: #fff;
+}
+.all_bg .navbar-toggler{
+  background: #fff;
+}
+
+.all_bg .navbar-toggler:focus{
+  box-shadow: unset;
+}
